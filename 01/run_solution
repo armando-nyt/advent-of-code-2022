@@ -1,0 +1,15 @@
+#!/bin/bash
+
+SOLVE=$1
+DAY_DIR=$(dirname "$0")
+PUZZLE=$(cat "$DAY_DIR"/puzzle.txt)
+
+if [ "$SOLVE" == "1" ]; then
+  PART=one "$DAY_DIR"/main.js "$PUZZLE"
+  exit 0
+fi
+
+if [ "$SOLVE" == "2" ]; then
+  PART=two "$DAY_DIR"/main.js "$PUZZLE"
+  exit 0
+fi
