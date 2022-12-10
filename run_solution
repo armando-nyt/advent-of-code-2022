@@ -1,8 +1,13 @@
 #!/bin/bash
 
-SOLVE=$1
-DAY_DIR=$(dirname "$0")
-PUZZLE=$(cat "$DAY_DIR"/puzzle.txt)
+DAY_DIR=$1
+SOLVE=$2
+
+if [ "$3" != "" ]; then
+  PUZZLE=$(cat "$DAY_DIR"/"$3")
+else
+  PUZZLE=$(cat "$DAY_DIR"/puzzle.txt)
+fi
 
 if [ "$SOLVE" == "1" ]; then
   PART=one "$DAY_DIR"/main.js "$PUZZLE"
@@ -13,3 +18,6 @@ if [ "$SOLVE" == "2" ]; then
   PART=two "$DAY_DIR"/main.js "$PUZZLE"
   exit 0
 fi
+
+echo "provide correct arguments"
+exit 1
