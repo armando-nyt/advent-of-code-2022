@@ -3,9 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="eb085dd0-9eac-4454-87e7-5d89eb11e76e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/01/run_solution" beforeDir="false" afterPath="$PROJECT_DIR$/run_solution" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,6 +41,7 @@
     <property name="javascript.nodejs.core.library.typings.version" value="16.18.4" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="settings.nodejs" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -53,17 +51,6 @@
     </key>
   </component>
   <component name="RunManager">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Unnamed" type="NodeJSConfigurationType" nameIsGenerated="true" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
@@ -82,7 +69,9 @@
       <workItem from="1670215396562" duration="4936000" />
       <workItem from="1670380896701" duration="3452000" />
       <workItem from="1670385238529" duration="16026000" />
-      <workItem from="1670639001083" duration="9058000" />
+      <workItem from="1670639001083" duration="9647000" />
+      <workItem from="1670649879167" duration="5712000" />
+      <workItem from="1670971276943" duration="8881000" />
     </task>
     <servers />
   </component>
